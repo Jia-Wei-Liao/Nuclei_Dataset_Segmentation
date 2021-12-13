@@ -63,5 +63,5 @@ Faster-RCNN and YOLOv4 achieve the following performance:
 
 
 ## Reference
-[1] https://github.com/facebookresearch/detectron2
+[1] https://github.com/facebookresearch/detectron2  
 [2] https://detectron2.readthedocs.io/en/latest/tutorials/install.html 

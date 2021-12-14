@@ -32,6 +32,19 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 - You can download the weight on the Google Drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
+## Dataset
+To train the model, you can run this command:
+```
+python make_annot.py
+```
+
+
+## Training
+To train the model, you can run this command:
+```
+python train.py --gpu 0
+```
+
 
 ## Training
 To train the model, you can run this command:

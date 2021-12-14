@@ -26,18 +26,19 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 ## Requirements
 
 
-## Download
+## Dataset
 - You can download the dataset on the Google Drive:  
 <https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>
-- You can download the weight on the Google Drive:  
-<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
-
-
-## Dataset
 ```
 python make_annot.py
 ```
 
+## Pre-trained weight
+- You can download the weight on the Google Drive:  
+<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
+```
+python make_annot.py
+```
 
 ## Training
 To train the model, you can run this command:
@@ -59,8 +60,9 @@ python inference.py --checkpoint '2021-12-10-09-43' --weight_name model_final.pt
 To reproduce our submission, please do the following steps:
 1. [Getting the code](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#Getting-the-code)
 2. [Install the package](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#requirements)
-3. Download the dataset and weight
-4. [Inference](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#inference)
+3. [Download the dataset](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#dataset)
+4. [Download the weight of model](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#pre-trained-weight)
+5. [Inference](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#inference)
 
 
 ## Results

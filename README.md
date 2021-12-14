@@ -24,17 +24,32 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
       └──train.py
 
 ## Requirements
-
+```
+numpy == 1.17
+opencv-python >= 4.1
+torch == 1.6
+torchvision
+matplotlib
+pandas
+numpy
+scipy
+pycocotools
+tqdm
+pillow
+hdf5
+PIL
+tensorboard >= 1.14
+```
 
 ## Dataset
-- You can download the dataset on the Google Drive:  
+You can download the dataset on the Google Drive:  
 <https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>
 ```
 python make_annot.py
 ```
 
 ## Pre-trained weight
-- You can download the weight on the Google Drive:  
+You can download the weight on the Google Drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 ```
 python make_annot.py

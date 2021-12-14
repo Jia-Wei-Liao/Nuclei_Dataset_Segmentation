@@ -11,7 +11,7 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 ```
 
 
-## File Structure
+## Repository Structure
       .
       ├──checkpoint
       ├──dataset
@@ -32,8 +32,8 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 - You can download the weight on the Google Drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
+
 ## Dataset
-To train the model, you can run this command:
 ```
 python make_annot.py
 ```
@@ -42,16 +42,10 @@ python make_annot.py
 ## Training
 To train the model, you can run this command:
 ```
-python train.py --gpu 0
-```
-
-
-## Training
-To train the model, you can run this command:
-```
-python train.py --gpu 0
+python train.py --model mask_rcnn_R_50_C4_1x --device cuda:0
 ```
 - model: mask_rcnn\_R\_{50, 101}\_{C4, FPN}\_{1, 3}x
+- device: cpu or cuda:{0, 1, 2, 3}
 
 
 ## Inference
@@ -63,14 +57,13 @@ python inference.py --checkpoint '2021-12-10-09-43' --weight_name model_final.pt
 
 ## Reproducing submission
 To reproduce our submission, please do the following steps:
-1. Getting the code
-2. Install the package
+1. [Getting the code](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#Getting-the-code)
+2. [Install the package](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#requirements)
 3. Download the dataset and weight
-4. Inference
+4. [Inference](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#inference)
 
 
 ## Results
-Faster-RCNN and YOLOv4 achieve the following performance:
 | method    | mAP     | 
 | --------- | ------- |
 |           | 0.24374 |

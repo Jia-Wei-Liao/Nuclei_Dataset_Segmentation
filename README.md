@@ -51,6 +51,7 @@ To train the model, you can run this command:
 ```
 python train.py --gpu 0
 ```
+- model: mask_rcnn\_R\_{50, 101}\_{C4, FPN}\_{1, 3}x
 
 
 ## Inference

@@ -42,18 +42,18 @@ tensorboard >= 1.14
 ```
 
 ## Dataset
+#### 1. Download the dataset
 You can download the dataset on the Google Drive:  
-<https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>
+<https://drive.google.com/drive/folders/1FE5c0MQWQNB5wXRFlOryf95LSg7agkFf?usp=sharing>
+#### 2. Make training data annotations
+To make the annotations, you can run this command:
 ```
 python make_annot.py
 ```
 
 ## Pre-trained weight
 You can download the weight on the Google Drive:  
-<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
-```
-python make_annot.py
-```
+
 
 ## Training
 To train the model, you can run this command:
@@ -80,10 +80,10 @@ To reproduce our submission, please do the following steps:
 5. [Inference](https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation#inference)
 
 
-## Results
-| method    | mAP     | 
-| --------- | ------- |
-|           | 0.24374 |
+## Experiments
+| method       | backbone      | mAP       |
+| ------------ | ------------- | --------- |
+| Mask R-CNN   | ResNet-50-C4  | 0.244089  |
 
 
 ## Reference

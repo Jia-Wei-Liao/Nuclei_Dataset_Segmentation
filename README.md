@@ -5,7 +5,7 @@
 The nuclear segmentation dataset contains 24 training images with 14,598 nuclear and 6 test images with 2,360 nuclear.
 Since we don't have annotation of data, we should generate annotation at the first,
 and then use Detectron2 to register the custom datasets before training step.
-At the inference step, we should generate the submission file and upload to the CodaLab.
+At the inference step, we should generate the submission file and upload to the [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/333?secret_key=3b31d945-289d-4da6-939d-39435b506ee5#results).
 The submission of format should follow by COCO results which include image\_id, category\_id, segmentation and score.
 In addition, the segmentation result should be the RLE encoded format.
 

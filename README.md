@@ -2,6 +2,12 @@
 
 
 ##  Introduction of Nuclear Dataset
+The nuclear segmentation dataset contains 24 training images with 14,598 nuclear and 6 test images with 2,360 nuclear.
+Since we don't have annotation of data, we should generate annotation at the first,
+and then use Detectron2 to register the custom datasets before training step.
+At the inference step, we should generate the submission file and upload to the CodaLab.
+The submission of format should follow by COCO results which include image\_id, category\_id, segmentation and score.
+In addition, the segmentation result should be the RLE encoded format.
 
 
 ## Getting the code
@@ -23,6 +29,7 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
       ├──make_annot.py
       └──train.py
 
+
 ## Requirements
 ```
 tqdm
@@ -39,6 +46,7 @@ pycocotools
 detectron2
 ```
 
+
 ## Dataset
 #### 1. Download the dataset
 You can download the dataset on the Google Drive:  
@@ -48,6 +56,7 @@ To make the annotations, you can run this command:
 ```
 python make_annot.py
 ```
+
 
 ## Pre-trained weight
 You can download the weight on the Google Drive:  

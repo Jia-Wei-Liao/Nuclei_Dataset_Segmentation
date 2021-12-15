@@ -1,7 +1,7 @@
 # Nuclear_Dataset_Segmentation
 
 
-##  Introduction of Nuclear Dataset
+##  Introduction of nuclear dataset
 The nuclear segmentation dataset contains 24 training images with 14,598 nuclear and 6 test images with 2,360 nuclear.
 Since we don't have annotation of data, we should generate annotation at the first,
 and then use Detectron2 to register the custom datasets before training step.
@@ -17,7 +17,7 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 ```
 
 
-## Repository Structure
+## Repository structure
       .
       ├──checkpoint
       ├──dataset

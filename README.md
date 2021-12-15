@@ -74,7 +74,7 @@ python train.py --model mask_rcnn_R_50_C4_1x --device cuda:0
 ## Inference
 To inference the results, you can run this command:
 ```
-python inference.py --checkpoint '2021-12-10-09-43' --weight_name model_final.pth
+python inference.py --checkpoint 'mask_rcnn_R_50_C4_3x' --weight_name model_final.pth
 ```
 
 

@@ -25,20 +25,18 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 
 ## Requirements
 ```
-numpy == 1.17
-opencv-python >= 4.1
-torch == 1.6
-torchvision
-matplotlib
-pandas
-numpy
-scipy
-pycocotools
 tqdm
-pillow
-hdf5
+numpy
+pandas
+matplotlib
 PIL
-tensorboard >= 1.14
+pillow
+opencv-python
+torch
+torchvision
+tensorboard
+pycocotools
+detectron2
 ```
 
 ## Dataset

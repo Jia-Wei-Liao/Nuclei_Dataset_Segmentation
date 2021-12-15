@@ -22,9 +22,9 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
       ├──checkpoint
       ├──dataset
       ├──src
+      |   ├──coco_mask.py
       |   ├──trainer.py
       |   └──utils.py
-      ├──config.py
       ├──inference.py 
       ├──make_annot.py
       └──train.py

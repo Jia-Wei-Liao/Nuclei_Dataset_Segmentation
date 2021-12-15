@@ -90,7 +90,10 @@ To reproduce our submission, please do the following steps:
 ## Experiments
 | method       | backbone      | mAP       |
 | ------------ | ------------- | --------- |
-| Mask R-CNN   | ResNet-50-C4  | 0.244089  |
+| Mask R-CNN   | ResNet-50-C4  | 0.24432   |
+| Mask R-CNN   | ResNet-50-FPN |           |
+| Mask R-CNN   | ResNet-101-C4 | 0.242977  |
+| Mask R-CNN   | ResNet-101-FPN| 0.241530  |
 
 
 ## Citation

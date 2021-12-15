@@ -93,6 +93,18 @@ To reproduce our submission, please do the following steps:
 | Mask R-CNN   | ResNet-50-C4  | 0.244089  |
 
 
+## Citation
+If you find our work useful in your project, please cite:
+```
+@misc{
+    title = {nuclear_dataset_segmentation},
+    author = {Jia-Wei Liao},
+    url = {https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation},
+    year = {2021}
+}
+```
+
+
 ## Reference
 [1] https://github.com/facebookresearch/detectron2  
 

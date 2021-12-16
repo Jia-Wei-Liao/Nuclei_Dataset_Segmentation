@@ -20,6 +20,7 @@ https://github.com/Jia-Wei-Liao/Nuclear_Dataset_Segmentation.git
 ## Repository structure
       .
       ├──checkpoint
+      |   └──best
       ├──dataset
       ├──src
       |   ├──coco_mask.py
@@ -59,7 +60,7 @@ python make_annot.py
 
 
 ## Pre-trained weight
-You can download the weight on the Google Drive:  
+You can download the weight and config on the Google Drive:  
 <https://drive.google.com/drive/folders/1ryfgKR2t5hj8TMWb2ubrhCDbkazRGZkG?usp=sharing>
 
 ## Training
@@ -74,7 +75,7 @@ python train.py --model mask_rcnn_R_50_C4_1x --device cuda:0
 ## Inference
 To inference the results, you can run this command:
 ```
-python inference.py --checkpoint 'mask_rcnn_R_50_C4_3x' --weight_name model_final.pth
+python inference.py --checkpoint 'best' --weight_name model_final.pth
 ```
 
 

@@ -60,7 +60,7 @@ python make_annot.py
 
 
 ## Pre-trained weight
-You can download the weight and config on the Google Drive:  
+You can download the weight of our model and config on the Google Drive:  
 <https://drive.google.com/drive/folders/1ryfgKR2t5hj8TMWb2ubrhCDbkazRGZkG?usp=sharing>
 
 ## Training
@@ -91,8 +91,8 @@ To reproduce our submission, please do the following steps:
 ## Experiments
 | method       | backbone      | mAP       |
 | ------------ | ------------- | --------- |
-| Mask R-CNN   | ResNet-50-C4  | 0.244315  |
-| Mask R-CNN   | ResNet-50-FPN |           |
+| Mask R-CNN   | ResNet-50-C4  | 0.244385  |
+| Mask R-CNN   | ResNet-50-FPN | 0.240068  |
 | Mask R-CNN   | ResNet-101-C4 | 0.242977  |
 | Mask R-CNN   | ResNet-101-FPN| 0.241530  |
 

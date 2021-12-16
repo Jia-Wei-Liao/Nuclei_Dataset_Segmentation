@@ -60,7 +60,7 @@ python make_annot.py
 
 
 ## Pre-trained weight
-You can download the weight of our model and config on the Google Drive:  
+You can download the weight and checkpoint of our model and config on the Google Drive:  
 <https://drive.google.com/drive/folders/1ryfgKR2t5hj8TMWb2ubrhCDbkazRGZkG?usp=sharing>
 
 ## Training

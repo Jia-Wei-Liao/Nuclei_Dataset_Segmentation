@@ -51,7 +51,7 @@ detectron2
 ## Dataset
 #### 1. Download the dataset
 You can download the dataset on the Google Drive:  
-<https://drive.google.com/drive/folders/1FE5c0MQWQNB5wXRFlOryf95LSg7agkFf?usp=sharing>
+<https://drive.google.com/drive/folders/174K2gLqNqm2-m2MNHP4SZDbnx2L2JA4i?usp=sharing>
 #### 2. Make training data annotations
 To make the annotations, you can run this command:
 ```
